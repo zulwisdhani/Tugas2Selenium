@@ -20,8 +20,8 @@ public class LoginPage { private WebDriver driver;
     WebElement btnLogin;
 
     public void login(String username, String password){
-        this.username.sendKeys("sindy");
-        this.password.sendKeys("$Sindy1999");
+        this.username.sendKeys(username);
+        this.password.sendKeys(password);
         btnLogin.click();
     }
 
