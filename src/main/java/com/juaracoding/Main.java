@@ -14,9 +14,9 @@ public class Main {
 
         DriverSingleton.getInstance("chrome");
         driver = DriverSingleton.getDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://shop.demoqa.com/my-account/n");
 
-        loginPage.login("Admin","admin123");
+         loginPage.login("sindy","$Sindy1999");
 
         try {
             Thread.sleep(3000);
